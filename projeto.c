@@ -15,6 +15,11 @@ int multiplicacao(int a, int b){
 	c=a*b;
 	return c;
 }
+int divisao(int a, int b){
+	int c;
+	c=a/b;
+	return c;
+}
 
 int main(){
 	
@@ -25,5 +30,7 @@ int main(){
 	printf("%d\n",d);
 	a=multiplicacao(5,2);
 	printf("%d\n",a);
+	b=divisao(6,2);
+	printf("%d\n",b);
 	return 0;
 }
